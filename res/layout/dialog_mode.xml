@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/dialog_mode_modePicker"
+    android:layout_gravity="center"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+    
+    <RadioButton
+        android:id="@+id/radio_walking"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:checked="true"
+        android:layout_marginLeft="10dp"
+        android:padding="15dp"
+        android:text="@string/mode_walking" />
+    
+    <RadioButton 
+        android:id="@+id/radio_train"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/mode_train"
+        android:layout_marginLeft="10dp"
+        android:padding="15dp" />
+    
+    <RadioButton 
+        android:id="@+id/radio_bus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/mode_bus"
+        android:layout_marginLeft="10dp"
+        android:padding="15dp" />
+    
+    <RadioButton 
+        android:id="@+id/radio_diesel_car"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/mode_car_diesel"
+        android:layout_marginLeft="10dp"
+        android:padding="15dp" />
+    
+    <RadioButton 
+        android:id="@+id/radio_petrol_car"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/mode_car_petrol"
+        android:layout_marginLeft="10dp"
+        android:padding="15dp" />
+    
+    <RadioButton 
+        android:id="@+id/radio_taxi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/mode_taxi"
+        android:layout_marginLeft="10dp"
+        android:padding="15dp" />
+    
+</RadioGroup>

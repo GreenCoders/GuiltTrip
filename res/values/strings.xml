@@ -13,5 +13,62 @@
     <string name="start_label">Start</string>
     <string name="stop_label">Stop</string>
     <string name="reset_label">Reset</string>
+    
+    <string name="mode_picker_title">Mode of transport:</string>
+    <string name="mode_walking">Walking or Cycling</string>
+    <string name="mode_train">Train</string>
+    <string name="mode_bus">Bus</string>
+    <string name="mode_car_diesel">Diesel Car</string>
+    <string name="mode_car_petrol">Petrol Car</string>
+    <string name="mode_taxi">Taxi</string>
+    
+    <string name="mode_text_label">Mode of Transport: </string>
+    <string name="time_start_stop_text_label">Start: </string>
+    <string name="stop_text_label">Stop:</string>
+    <string name="elapsed_text_label">Travel Time:</string>
+    <string name="distance_text_label">Distance Travelled: </string>
+    <string name="footprint_text_label">Footprint: </string>
+    <string name="advice_text_label">Insult: </string>
 
+    <string name="drawer_open">Slider Menu Opened</string>
+    <string name="drawer_close">Slider Menu Closed</string>
+    
+	<!-- Developers names strings -->
+    <string name="developers_title">Developers</string>
+    <string name="abhishek">Abhishek Divekar</string>
+    <string name="ajitesh">Ajitesh Chandak</string>
+	<string name="paras">Paras Avkirkar</string>
+	<string name="sandesh">Sandesh Shetty</string>
+    <string name="swachhand">Swachhand Lokhande</string>
+    
+    <!-- Application version and current year strings -->
+    <string name="app_ver_title">Application Version</string>
+	<string name="app_version">v0.0.1_a</string>
+	<string name="current_year">2014</string>
+	
+	<!-- About Application strings -->
+	<string name="about_app_title">About</string>
+	<string name="about_app">Android application that tracks the users commute and encourages the user to reduce their carbon footprint caused by their commute by introducing a feeling of guilt.</string>
+    
+    
+    <!-- Nav Drawer Menu Items -->
+    <string-array name="nav_drawer_items">
+        <item >Track</item>
+        <item >Statistics</item>
+        <item >Your Contribution</item>
+        <item >About</item>
+    </string-array>
+    
+    <!-- Nav Drawer List Item Icons -->
+    <!-- Keep them in order as the titles are in -->
+    <array name="nav_drawer_icons">
+        <item>@drawable/ic_track</item>
+        <item>@drawable/ic_stat</item>
+        <item>@drawable/ic_contri</item>
+        <item>@drawable/ic_action_about</item>
+    </array>
+    
+    <!-- Content Description -->
+    <string name="desc_list_item_icon">Item Icon</string>
+    
 </resources>

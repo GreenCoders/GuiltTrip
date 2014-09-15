@@ -11,13 +11,12 @@ import android.location.LocationManager;
 import android.os.Bundle;
 import android.os.IBinder;
 import android.provider.Settings;
-import java.lang.Math;
 import android.util.Log;
 
 public class GPSTracker extends Service implements LocationListener {
 
 	private final Context mContext;
-	 
+	 	
     // flag for GPS status
     boolean isGPSEnabled = false;
  
@@ -159,8 +158,8 @@ public class GPSTracker extends Service implements LocationListener {
         alertDialog.show();
     }
     
-    public static float gps2m(double lat_a, double lng_a, double lat_b, double lng_b) {
-       /* double pk = (double) (180/3.14169);
+    public static double gps2m(double lat_a, double lng_a, double lat_b, double lng_b) {
+        double pk = (double) (180/3.14169);
 
         double a1 = lat_a / pk;
         double a2 = lng_a / pk;
@@ -173,9 +172,9 @@ public class GPSTracker extends Service implements LocationListener {
         double tt = Math.acos(t1 + t2 + t3);
        
         return 6366000*tt;
-    */	
-    	double d=Math.sqrt(Math.pow((float)(lat_a-lat_b),2) + Math.pow((float)(lng_a-lng_b),2));
-    	return (((float)d)*100000);
+    
+//    	double d=Math.sqrt(Math.pow((float)(lat_a-lat_b),2) + Math.pow((float)(lng_a-lng_b),2));
+//    	return (((float)d)*100000);
 
     }
     

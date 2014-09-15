@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content" >
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <!-- App Icon LinearLayout Field-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="8dp" >
+	
+        <ImageView 
+    		android:layout_width="128dp"
+        	android:layout_height="128dp"
+        	android:gravity="center"
+        	android:contentDescription="@string/app_name"
+        	android:padding="4dp"
+            android:src="@drawable/earth_on_fire_location_full"/>
+
+	</LinearLayout>
+	
+    <!-- About App Info Text -->
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="16dp" >
+		        
+			<TextView
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:text="@string/about_app"
+				android:textSize="14sp"
+			    android:textColor="#287AA9"
+				android:padding="2dp" />
+	
+	</LinearLayout>		
+    
+    <!-- Divider -->
+
+    <View style="@style/Divider" />
+    
+    <!-- App Version LinearLayout Field -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="16dp" >
+	
+	        <TextView 
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="@string/app_ver_title"
+				android:textSize="18sp"
+	            android:textColor="#000000" 
+				android:padding="2dp" />
+	        
+			<TextView
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:text="@string/app_version"
+				android:textSize="14sp"
+			    android:textColor="#287AA9"
+				android:padding="2dp" />
+			
+			<TextView
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:text="@string/current_year"
+				android:textSize="14sp"
+			    android:textColor="#287AA9"
+				android:padding="2dp" />
+			
+	</LinearLayout>
+    
+    <!-- Divider -->
+
+    <View style="@style/Divider" />
+    
+    <!-- Developers names LinearLayout Field -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="16dp" >
+
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/developers_title"
+			android:textSize="18sp"
+            android:textColor="#000000" 
+			android:padding="2dp" />
+        
+		<TextView
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:text="@string/swachhand"
+			android:textSize="14sp"
+		    android:textColor="#287AA9"
+			android:padding="2dp" />
+			
+	    <TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/sandesh"
+			android:textSize="14sp"
+		    android:textColor="#287AA9"
+			android:padding="2dp" />
+	    	    
+		<TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/abhishek"
+			android:textSize="14sp"
+		    android:textColor="#287AA9"
+			android:padding="2dp" />
+					
+		<TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/paras"
+			android:textSize="14sp"
+		    android:textColor="#287AA9"
+			android:padding="2dp" />
+					
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/ajitesh"
+			android:textSize="14sp"
+		    android:textColor="#287AA9"
+			android:padding="2dp" />
+					
+	</LinearLayout>
+	
+</LinearLayout>
+</ScrollView>
