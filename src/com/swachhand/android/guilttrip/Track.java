@@ -17,6 +17,7 @@ public class Track {
 	private static final String JSON_MODE = "modeOfTransport";
 	private static final String JSON_DIST = "distanceTravelled";
 	private static final String JSON_INSULT = "insult";
+	private static final String JSON_CARBON_FOOTPRINT = "carbonFootprint";
 
 	private Date mStartTime;
 	private UUID mId;
@@ -43,6 +44,7 @@ public class Track {
 		mDistanceTravelled = json.getDouble(JSON_DIST);
 		mModeOfTransport = json.getInt(JSON_MODE);
 		mInsult = json.getString(JSON_INSULT);
+		mCarbonFootprint = json.getDouble(JSON_CARBON_FOOTPRINT);
 	}
 	
 	public JSONObject toJSON() throws JSONException {
@@ -54,6 +56,7 @@ public class Track {
 		json.put(JSON_DIST, mDistanceTravelled);
 		json.put(JSON_MODE, mModeOfTransport);
 		json.put(JSON_INSULT, mInsult);
+		json.put(JSON_CARBON_FOOTPRINT, mCarbonFootprint);
 		Log.d(TrackLab.TAG, "TO JSON CALLED:!");
 		return json;
 	}

@@ -46,7 +46,8 @@ public class TrackListFragment extends ListFragment {
 			mDist.setText(dist + " Mtrs");
 			
 			TextView mFootprint = (TextView) convertView.findViewById(R.id.footprint_label);
-			mFootprint.setText(CO2_calculate.carbon_footprint_calculate(mode, dist) + " Kg");
+			//mFootprint.setText(CO2_calculate.carbon_footprint_calculate(mode, dist) + " Kg");
+			mFootprint.setText(track.getCarbonFootprint() + " Kg");
 			
 			TextView mInsults = (TextView) convertView.findViewById(R.id.advice_label);
 			mInsults.setText(track.getInsult());
